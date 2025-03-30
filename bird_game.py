@@ -107,7 +107,7 @@ def start_game(update: Update, context: CallbackContext) -> None:
 
 def main():
     # Telegram bot setup
-    updater = Updater("YOUR_TELEGRAM_BOT_TOKEN", use_context=True)
+    updater = Updater("8019837235:AAE4eyQrI9tEvReBD4PTzYwFImbRne7GbtE", use_context=True)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler("startgame", start_game))
